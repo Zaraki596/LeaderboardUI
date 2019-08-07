@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Today"
+          android:id="@+id/menu_today"/>
+    <item android:title="This Week"
+          android:id="@+id/menu_week"/>
+    <item android:title="This Month"
+          android:id="@+id/menu_month"/>
+    <item android:title="All time"
+          android:id="@+id/menu_all_time"/>
+
+</menu>

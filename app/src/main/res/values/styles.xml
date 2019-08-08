@@ -11,7 +11,13 @@
     </style>
 
 
-    //Popup menu overlay
+    <style name="User_selected_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/current_user_selected</item>
+        <item name="android:background">@color/dark_blue_color</item>
+    </style>
+
+
+   <!--Popup menu overlay-->
     <style name="PopupMenu" parent="@style/Widget.AppCompat.Light.PopupMenu">
         <item name="android:dropDownVerticalOffset">-36dip</item>
         <item name="overlapAnchor">true</item>

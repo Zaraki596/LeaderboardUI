@@ -32,12 +32,19 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
+
+
+
 //        View pager intialization for the items to load
         val viewPager = findViewById<ViewPager>(R.id.vp_leaderboard_img_slider)
         val indicator = findViewById<ScrollingPagerIndicator>(R.id.vp_scroll_indicator)
         val viewPagerAdapter = LeaderBoardViewPagerAdapter(this,imageUrls)
         viewPager.adapter = viewPagerAdapter
         indicator.attachToPager(viewPager)
+
+
 
 
         iv_drop_popmenu.setOnClickListener {

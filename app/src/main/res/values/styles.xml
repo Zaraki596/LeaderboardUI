@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -11,7 +11,7 @@
     </style>
 
 
-    <style name="User_selected_theme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="User_selected_theme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
         <item name="android:textColor">@color/current_user_selected</item>
         <item name="android:background">@color/dark_blue_color</item>
     </style>
